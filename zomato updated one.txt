@@ -19,7 +19,7 @@ pipeline {
 
         stage("Git Checkout") {
             steps {
-                git url: 'https://github.com/ganeshthulasi333/Zomato-updated-one.git'
+                git 'https://github.com/ganeshthulasi333/Zomato-updated-one.git'
             }
         }
 
@@ -125,3 +125,4 @@ pipeline {
     }
 
 }
+
